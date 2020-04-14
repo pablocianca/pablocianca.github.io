@@ -131,7 +131,9 @@ nav{
 .columna{
     width: 50%;
 }
-
+.ne-bold{
+    width: 100%;
+}
 }
 
 /* media querry dispositivos menores a 10700px */
