@@ -1,0 +1,161 @@
+
+
+/*font*/
+body{
+    font-family: 'Fira Sans', sans-serif;
+    color: #333333;
+    background: mintcream;
+}
+
+h2{
+    font-weight: 600;
+    font-size: large;
+}
+
+
+.reglink{
+    text-decoration: none;
+    color: #333333;
+}
+
+.reglink:hover{
+    text-decoration: underline;
+}
+.reglink:active{
+    text-decoration: underline;
+}
+
+
+
+
+
+/* navegador */
+.nav-enlace {
+    display: inline-block;
+    background:none;
+    color: #333333;
+    /* padding: 1% 3%; */
+    text-decoration: none;
+    /* margin: 0 auto; */
+}
+
+.nav-enlace:hover{
+    background-color:none;
+    text-decoration: underline;
+}
+
+.nav-enlace:active{
+    background-color:none;
+    text-decoration: underline;
+}
+
+.ne-bold{
+    color: mediumaquamarine;
+    font-weight: 600;
+    font-size: 2.1em;
+    margin:1%;
+    
+}
+.ne-regular{
+    padding: 1% 3%;
+    margin:1%;
+}
+
+nav{
+    background: none;
+    margin: 0 auto;
+    width: 90%;
+    padding: 1%;
+    /* display: inline; */
+    /* display: flexbox; */
+    /* line-height: 1.5; */
+    /* justify-content: space-around; */
+}
+
+
+
+
+/* propiedades y ocultar boton menu */
+/* .menuboton{
+    background: #222222;
+    color: #ffffff;
+    padding: 1%;
+    border: none;
+    display: none;
+} */
+
+
+
+
+/* tabla */
+
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.container-holder{
+    width: 90%;
+}
+.columna{
+    width: 25%;
+    margin: 0 auto;
+    padding: 1%;
+    box-sizing: border-box;
+    /* border-radius: 5px; */
+}
+
+.img-box{
+    width: 100%;
+    /* margin: 0 auto; */
+    /* padding: 1%; */
+    box-sizing: border-box;
+    /* border-radius: 5px; */
+}
+
+
+
+/* media querry anchos menores a 1070px */
+@media (max-width: 1070px){
+
+.columna{
+    width: 50%;
+}
+
+}
+
+/* media querry dispositivos menores a 10700px */
+@media (max-width: 600px){
+    nav{
+        background: none;
+        padding: 1%;
+        flex-direction: column;
+    }
+
+    .nav-enlace{
+        margin: 1%;
+    }
+
+    /* .menuboton{
+        display: inline-block;
+    }
+
+    /* ocultar links menu 
+    .dis{
+        display: none;
+    } */
+
+    .columna{
+        width: 100%;
+        margin-bottom: 1%;
+    }
+    }
