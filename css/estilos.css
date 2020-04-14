@@ -165,5 +165,8 @@ nav{
     .ne-bold{
         width: 100%;
     }
-    
+
+    .ne-regular{
+        margin-bottom: 3%;
+    }
     }
