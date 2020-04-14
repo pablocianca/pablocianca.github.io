@@ -2,13 +2,14 @@
 
 /*font*/
 body{
-    font-family: 'Fira Sans', sans-serif;
+    /* font-family: 'Fira Sans', sans-serif; */
+    font-family: 'Inconsolata', monospace;
     color: #333333;
 
 }
 
 h2{
-    font-weight: 600;
+    font-weight: 700;
     font-size: large;
 }
 
