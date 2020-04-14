@@ -51,7 +51,7 @@ h2{
 }
 
 .ne-bold{
-    color: mediumaquamarine;
+    /* color: mediumaquamarine; */
     font-weight: 600;
     font-size: 2.1em;
     margin:1%;
